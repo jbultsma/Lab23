@@ -17,12 +17,15 @@ namespace Lab23.Controllers
             return View(await db.Products.ToListAsync());
         }
 
-        public IActionResult Purchase(int id)
+        public IActionResult Purchase(int id, Users u)
         {
             Products p = db.Products.Find(id);
             if (p != null)
             {
+                db.Products.Remove(p);
                 return View(p);
+
+               
             }
             else
             {
@@ -30,6 +33,14 @@ namespace Lab23.Controllers
             }
 
 
+        }
+
+        public IActionResult Receipt()
+        {
+            double userMoney = 0;
+
+
+            return View();
         }
     }
 }

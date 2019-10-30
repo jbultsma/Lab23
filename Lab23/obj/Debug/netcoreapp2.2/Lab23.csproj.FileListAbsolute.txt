@@ -35,3 +35,4 @@ C:\Dev\GC Graded Work\Labs\Lab23\Lab23\obj\Debug\netcoreapp2.2\Razor\Views\Login
 C:\Dev\GC Graded Work\Labs\Lab23\Lab23\obj\Debug\netcoreapp2.2\Razor\Views\Products\Index.cshtml.g.cs
 C:\Dev\GC Graded Work\Labs\Lab23\Lab23\obj\Debug\netcoreapp2.2\Razor\Views\Home\About.cshtml.g.cs
 C:\Dev\GC Graded Work\Labs\Lab23\Lab23\obj\Debug\netcoreapp2.2\Razor\Views\Products\Purchase.cshtml.g.cs
+C:\Dev\GC Graded Work\Labs\Lab23\Lab23\obj\Debug\netcoreapp2.2\Razor\Views\Products\Receipt.cshtml.g.cs
